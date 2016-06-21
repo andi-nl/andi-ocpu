@@ -15,7 +15,9 @@ POST on url <opencpu_server_ip>/library/andistats/R/normcomp/json
 Test on the command line if the opencpu server is running
 ```
 curl http://<ip address>:8004/ocpu/library/andistats/R/normcomp -d "myJSON={'test': 'data'}"
-# the response should be
+```
+the response should be
+```
 NA/NaN argument
 
 In call:
